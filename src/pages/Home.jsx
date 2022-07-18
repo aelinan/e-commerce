@@ -1,13 +1,15 @@
 import React from 'react';
+import ProductList from '../containers/ProductList';
 import Header from '../components/Header';
-import Menu from '../components/Menu';
+import ProductInfo from '../components/ProductInfo';
 
 
 const Home = () => {
     return (
         <div>
             <Header />
-            <Menu/>
+            <ProductList />
+            {/* <ProductInfo /> */}
         </div>
     );
 }
