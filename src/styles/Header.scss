@@ -52,6 +52,13 @@ nav {
     margin-right: 29px;
 }
 
+.navbar-email:hover{
+    cursor: pointer;
+    border: 1px solid var(--hospital-green);
+    border-radius: 8px;
+    padding: 8px;
+}
+
 .navbar-shopping-cart {
     position: relative;
 }
