@@ -9,8 +9,8 @@ const ProductItem = ({ product }) => {
 
 	const { addToCart } = useContext(AppContext);
 
-	const handleClick = item => {
-		addToCart(item);
+	const handleClick = product => {
+		addToCart(product);
 	}
 	return (
 		<div className="ProductItem">
@@ -20,7 +20,7 @@ const ProductItem = ({ product }) => {
 					<p>$ {product.price}</p>
 					<p>{product.title}</p>
 				</div>
-				<figure onClick={handleClick}>
+				<figure onClick={() => handleClick(product)}>
 					<img src={addToCartImage} alt="add" />
 				</figure>
 			</div>

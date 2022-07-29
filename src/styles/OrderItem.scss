@@ -16,6 +16,16 @@
 	border-radius: 20px;
 	object-fit: cover;
 }
+.close {
+	width: 25px;
+	height: 25px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.close:hover{
+	cursor: pointer;
+}
 .OrderItem p:nth-child(2) {
 	color: var(--very-light-pink);
 }
